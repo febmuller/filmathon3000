@@ -1,0 +1,7 @@
+body {
+    background: url(backdrop.png) no-repeat;
+    background-position: center top;
+    background-size: 100%;  
+    text-align: center; 
+    padding-top: 150px;
+}       
