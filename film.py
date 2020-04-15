@@ -17,7 +17,6 @@ def rando_calrissian(genre):
     film_genres = film_content.find('span', class_="genre").text
 
     return """
-    <br/>
     {} 
     <br />
     {}
