@@ -13,3 +13,13 @@ Run
     export FLASK_APP=film.py
     export FLASK_ENV=development
     bin/flask run
+
+Git
+---
+
+    git status
+    git add .
+    git commit -am "#####"
+    git push origin master
+
+    
