@@ -1,0 +1,11 @@
+
+function run_server() {
+    export FLASK_APP=film.py
+    export FLASK_ENV=development
+    bin/flask run
+}
+
+function install_server() {
+    virtualenv --python=python3 .
+    bin/pip install -r requirements.txt
+}
